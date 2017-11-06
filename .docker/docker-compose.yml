@@ -45,7 +45,7 @@ services:
      links:
       - db
      volumes:
-      - C:/Users\miki/Dropbox/develop/__ZEND_3/hello:/var/www/html
+      - ../../KKKV_Panika:/var/www/html
       - ./php.ini:/usr/local/etc/php/conf.d/php.ini
       - ./virtualhost-php71.conf:/etc/apache2/sites-available/001-virtualhost-php71.conf
       - ../logs/71_error.log:/var/www/71_error.log
