@@ -16,6 +16,9 @@ RUN apt-get update && apt-get install -y \
     
 
 # Install xdebug
+
+# !!! change actual IP adress of localhost at xdebug.remote_host= . . . . !!!
+
 RUN pecl install xdebug \
     && docker-php-ext-enable xdebug \
     && echo "error_reporting = E_ALL" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini \
