@@ -55,6 +55,7 @@ services:
        DB_PASSWORD: toor
      ports:
       - 82:80
+  
 
    pma:
      depends_on:
