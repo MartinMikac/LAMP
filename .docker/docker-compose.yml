@@ -55,6 +55,8 @@ services:
        DB_PASSWORD: toor
      ports:
       - 82:80
+     expose:
+      - 9000      
   
 
    pma:
