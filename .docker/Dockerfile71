@@ -15,6 +15,15 @@ RUN apt-get update && apt-get install -y \
     | php -- --install-dir=/usr/local/bin --filename=composer
     
 
+# install ODBC driver
+#RUN curl http://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+#RUN curl http://packages.microsoft.com/config/debian/8/prod.list > /etc/apt/sources.list.d/mssql-release.list
+#RUN ACCEPT_EULA=Y apt-get install -y unixodbc-dev
+#RUN set -xe \
+#    && pecl install pdo_sqlsrv \
+#    && docker-php-ext-enable pdo_sqlsrv \
+#    && apt-get purge -y unixodbc-dev && apt-get autoremove -y && apt-get clean
+
 
 # Install needed php extensions: ldap
 #

@@ -1,5 +1,5 @@
 db_files/*
-logs/*
 logs/71_access.log
 logs/71_error.log
 phpmyadmin/sessions/sess_2f9d7ee324370f0d479f93de73690b55
+_zaloha_DB/*
