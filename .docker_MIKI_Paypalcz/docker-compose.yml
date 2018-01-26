@@ -33,7 +33,7 @@ services:
        DB_HOST: db:3306
        DB_PASSWORD: toor
      ports:
-      - 82:80
+      - 86:80
      expose:
       - 9000      
 
